@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDemo"
+        mc:Ignorable="d"
+        Title="AntiBydProtector" Height="385" Width="229">
+    <Grid Margin="0,0,0,1">
+        <Label x:Name="label" Content="press: Ctrl + Q to close programs" HorizontalAlignment="Left" Margin="15,39,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="In Protection&#xA;Enjoy yourself!!!" HorizontalAlignment="Left" Margin="15,69,0,0" VerticalAlignment="Top" FontSize="21.333" Width="224"/>
+        <Label x:Name="label3" Content="PelerGameProtector" HorizontalAlignment="Left" Margin="15,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="programs be killed:" HorizontalAlignment="Left" Height="25" Margin="15,136,0,0" VerticalAlignment="Top" Width="244"/>
+        <ListBox x:Name="processListBox" HorizontalAlignment="Left" Height="170" Margin="15,161,0,0" VerticalAlignment="Top" Width="185" SelectionMode="Multiple"/>
+        <Button Content="Refresh" HorizontalAlignment="Left" Height="21" Margin="127,141,0,0" VerticalAlignment="Top" Width="54" Click="Button_Click"/>
+
+    </Grid>
+</Window>
